@@ -4,10 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="#">
-  <title>CHANGE THIS TITLE</title>
+  <title>Lyrics API</title>
 </head>
 <body>
-  <div id="login-form-container"></div>
+  
+  <form>
+    <div class="input-group">
+      <span class="input-group-text">Artist</span>
+      <input type="text" id="artist" aria-label="artist" class="form-control">
+      <span class="input-group-text">Song</span>
+      <input type="text" id="song" aria-label="song" class="form-control">
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary" id="submit" >Submit</button>
+      </div>
+    </div>
+  </form>
+
   <div id="app"></div>
 </body>
 </html>
