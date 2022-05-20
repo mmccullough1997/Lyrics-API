@@ -1,4 +1,4 @@
-import getLyrics from '../helpers/getLyrics';
+import getLyrics from '../../api/getLyrics';
 import renderToDOM from '../helpers/renderToDOM';
 
 // UI Presentation
